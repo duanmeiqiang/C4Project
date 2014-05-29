@@ -112,12 +112,12 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	autovec.assign_direct(pbase1);
 	autovec.begin();
-	autovec.assign_direct(new BASE());
-
-	std::auto_ptr<BASE> auto1( new BASE());
-	std::auto_ptr<BASE> auto2( new BASE());
-	autovec.push_back(auto1);
-	autovec.push_back(auto2);
+// 	autovec.assign_direct(new BASE());
+// 
+// 	std::auto_ptr<BASE> auto1( new BASE());
+// 	std::auto_ptr<BASE> auto2( new BASE());
+// 	autovec.push_back(auto1);
+// 	autovec.push_back(auto2);
 
 	return 0; 
 
